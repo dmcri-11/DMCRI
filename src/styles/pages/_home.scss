@@ -1,0 +1,96 @@
+.hero-section {
+  position: relative;
+  img {
+    max-width: 100%;
+    height: auto;
+    opacity: 0.85;
+  }
+
+  .figcaption {
+    position: absolute;
+    top: 120px;
+
+    p {
+      color: white;
+      font-size: 35px;
+      font-weight: 700;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+        Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+
+      span.line {
+        border-bottom: 10px solid #da251e;
+      }
+    }
+  }
+}
+
+.about-section {
+  background: #f0f0f0;
+  padding: 80px;
+
+  .row.notice {
+    position: relative;
+  }
+  .col-md-5.noticeCard {
+    position: absolute;
+    right: 30px;
+    top: -130px;
+  }
+}
+
+.message-section {
+  .px-65 {
+    padding-top: 65px;
+    padding-bottom: 65px;
+  }
+}
+
+.appointment-section {
+  position: relative;
+
+  img.appoint-img {
+    max-width: 100%;
+    height: auto;
+    opacity: 0.9;
+  }
+
+  .appointment-figcaption {
+    position: absolute;
+    top: 100px;
+    left: 550px;
+  }
+}
+
+.services {
+  position: relative;
+
+  h3.title {
+    font-weight: 500;
+    font-size: 24px;
+    color: #0b2547;
+    margin-bottom: 50px;
+  }
+
+  span.line {
+    border-bottom: 2px solid #058fce;
+    position: absolute;
+    top: 90px;
+    width: 73px;
+    color: #f0f0f0;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .figcaption {
+    display: none;
+  }
+
+  .about-section {
+    padding: 15px;
+  }
+
+  .appointment-figcaption,
+  .col-md-5.noticeCard {
+    position: unset !important;
+  }
+}

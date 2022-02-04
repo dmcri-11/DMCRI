@@ -1,0 +1,37 @@
+.sidecard.py-30 {
+  padding-right: 30px;
+  padding-left: 30px;
+
+  h3.h3-md {
+    margin-bottom: 30px;
+    font-size: 2.25rem;
+  }
+  span.line {
+    border-bottom: 2px solid #058fce;
+    position: absolute;
+    top: 20px;
+    width: 100px;
+    color: #ffffff;
+  }
+
+  span.section-id {
+    font-size: 0.825rem;
+    font-family: "Lato", sans-serif;
+    font-weight: 900;
+    text-transform: uppercase;
+    display: block;
+    letter-spacing: 0.5px;
+    margin-bottom: 28px;
+
+    a {
+      color: #333;
+      text-decoration: none;
+    }
+
+    a.btn.btn-blue {
+      color: #fff;
+      background-color: #9eb092;
+      border-color: #9eb092;
+    }
+  }
+}

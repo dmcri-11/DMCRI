@@ -1,0 +1,93 @@
+.card.cardWidth {
+  .card-body {
+    margin: 0px 14px;
+  }
+
+  .mx-20 {
+    margin: 20px 0;
+  }
+  span.line {
+    border-bottom: 2px solid #058fce;
+    position: absolute;
+    top: 40px;
+    width: 73px;
+    color: #ffffff;
+  }
+  .card-text {
+    // text-align: justify;
+  }
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+    li {
+      margin: 0 0 9px 0;
+      padding: 0;
+
+      a {
+        color: #046795;
+        text-decoration: none;
+      }
+    }
+  }
+
+  .aboutButton {
+    margin: 40px 0 20px 0;
+  }
+
+  .noticeButton {
+    border: none !important;
+    background: none;
+    color: #0d6efd;
+    text-decoration: underline !important;
+    margin: 40px 0 20px 0;
+    outline: none !important;
+  }
+}
+.cardWidth.aboutCard.card {
+  background: #ffffff;
+  border: 1px solid #b6dcdf;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+}
+
+.cardWidth.noticeCard.card {
+  background: #ffffff;
+  box-shadow: -4px -12px 4px rgba(24, 118, 127, 0.25),
+    6px 12px 4px rgba(140, 123, 123, 0.25);
+  border-radius: 15px;
+}
+
+.cardWidth.serviceCard.card {
+  background: #ffffff;
+  box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+
+  .img-box {
+    width: 92%;
+    margin: 30px 23px 0 23px;
+  }
+  img.service {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .mx-20 {
+    text-align: center;
+    letter-spacing: 0.02em;
+
+    color: #000000;
+  }
+}
+
+// .card.cardWidth {
+//   width: 25rem;
+// }
+
+// @media only screen and (max-width: 992px) {
+//   .card.cardWidth {
+//     width: 15rem;
+//   }
+// }

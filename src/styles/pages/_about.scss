@@ -1,0 +1,25 @@
+.intro-banner {
+  padding: 50px;
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+.legacy-section {
+  background: #f2f2f2;
+  margin-bottom: 65px;
+  padding-top: 65px;
+  padding-bottom: 65px;
+}
+
+.bod-section {
+  background: #ffffff;
+  margin-bottom: 65px;
+  padding-top: 65px;
+  padding-bottom: 65px;
+
+  .col-lg-4 {
+    text-align: center;
+  }
+}
