@@ -3,11 +3,13 @@ import Nav from "../../components/Nav";
 import SideCard from "../../components/SideCard";
 import Footer from "../../components/Footer";
 import Team from "../../assets/images/team.jpg";
+import Breadcrums from "../../components/Breadcrums";
 const Services = () => {
   return (
     <>
       <Topnav />
       <Nav />
+      <Breadcrums name="Services"/>
       {/* Services -1 */}
       <section className="message-section">
         <section class="px-65 info-section">

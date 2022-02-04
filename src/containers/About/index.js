@@ -4,12 +4,13 @@ import Footer from "../../components/Footer";
 import Banner from "../../assets/images/Banner.png";
 import Card from "react-bootstrap/Card";
 import Image from "../../assets/images/Chairman.jpg";
+import Breadcrums from "../../components/Breadcrums";
 const About = () => {
   return (
     <>
       <Topnav />
       <Nav />
-
+      <Breadcrums name="About Us"/>
       {/* intro */}
       <section class="wide-100 intro-banner mb-45">
         <div class="container">
