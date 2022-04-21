@@ -15,8 +15,8 @@ const Topnav = () => {
                 src={Logo}
                 alt="logo"
                 className="logo"
-                width="82px"
-                height="72px"
+                width="100px"
+                height="100px"
               />
             </div>
           </Navbar.Brand>
@@ -79,18 +79,17 @@ const Topnav = () => {
               >
                 Notice
               </Nav.Link>
-              {/* <Nav.Link
+              <Nav.Link
                 eventKey={6}
-                // href="#memes"
                 as={NavLink}
                 to="/contact"
-                activeClassName="active"
-                className="nav-item"
+                // activeClassName="active"
+                className="nav-link nav-item"
               >
                 Contact
-              </Nav.Link> */}
+              </Nav.Link>
 
-              <NavLink
+              {/* <NavLink
                 // activeClassName="active"
                 to="/contact"
                 className="nav-link nav-item"
@@ -99,7 +98,7 @@ const Topnav = () => {
                 })}
               >
                 Contact
-              </NavLink>
+              </NavLink> */}
             </Nav>
           </Navbar.Collapse>
         </Container>

@@ -7,7 +7,7 @@
 }
 
 .legacy-section {
-  background: #f2f2f2;
+  background: #f0f0f0;
   margin-bottom: 65px;
   padding-top: 65px;
   padding-bottom: 65px;
@@ -19,7 +19,42 @@
   padding-top: 65px;
   padding-bottom: 65px;
 
-  .col-lg-4 {
+  .col-lg- {
     text-align: center;
+
+    .cardWidth.aboutCard.card {
+      border: none;
+
+      .card-img,
+      .card-img-top {
+        border: none;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .intro-banner {
+    padding: 20px 0;
+  }
+
+  .message-section .px-65 {
+    padding: 20px 0;
+
+    .sidecard.py-30 {
+      padding-left: 0px;
+      padding-right: 0px;
+      padding-bottom: 10px;
+
+      h3.h3-md {
+        margin-bottom: 20px;
+        font-size: 25px;
+        margin-top: 20px;
+      }
+
+      span.line {
+        display: none;
+      }
+    }
   }
 }

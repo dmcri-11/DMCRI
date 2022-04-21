@@ -1,13 +1,24 @@
 .card.cardWidth {
   .card-body {
     margin: 0px 14px;
+    padding-right: 40px;
+  }
+
+  .card-title {
+    color: #222;
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    letter-spacing: -0.25px;
+    font-size: 24px;
   }
 
   .mx-20 {
-    margin: 20px 0;
+    // margin: 20px 0;
+    margin: 14px 0 30px 0;
   }
+
   span.line {
-    border-bottom: 2px solid #058fce;
+    border-bottom: 3px solid #058fce;
     position: absolute;
     top: 40px;
     width: 73px;
@@ -33,7 +44,8 @@
   }
 
   .aboutButton {
-    margin: 40px 0 20px 0;
+    // margin: 40px 0 20px 0;
+    margin: 14px 0 14px 0;
   }
 
   .noticeButton {
@@ -41,7 +53,7 @@
     background: none;
     color: #0d6efd;
     text-decoration: underline !important;
-    margin: 40px 0 20px 0;
+    margin: 30px 0 20px 0;
     outline: none !important;
   }
 }
@@ -66,28 +78,16 @@
   border-radius: 8px;
 
   .img-box {
-    width: 92%;
+    // width: 92%;
     margin: 30px 23px 0 23px;
+    img.service {
+      max-width: 100%;
+      height: auto;
+    }
   }
-  img.service {
-    max-width: 100%;
-    height: auto;
-  }
-
-  .mx-20 {
-    text-align: center;
-    letter-spacing: 0.02em;
-
-    color: #000000;
+  .card-body {
+    .mx-20 {
+      text-align: center;
+    }
   }
 }
-
-// .card.cardWidth {
-//   width: 25rem;
-// }
-
-// @media only screen and (max-width: 992px) {
-//   .card.cardWidth {
-//     width: 15rem;
-//   }
-// }

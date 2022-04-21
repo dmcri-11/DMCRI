@@ -5,6 +5,11 @@
   color: #fff;
   font-size: 16px;
   font-weight: 400;
+
+  img {
+    width: 45px;
+    margin-bottom: 10px;
+  }
 }
 
 .footer#footer-2 {
@@ -47,7 +52,7 @@
   }
   .bottom-footer {
     border-top: 1px solid #ddd;
-    padding-top: 25px;
+    padding: 25px 0;
 
     .row {
       padding: 0px;

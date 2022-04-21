@@ -1,11 +1,18 @@
-.breadcrum-bg{
-    background-color: #f0f0f0;
-    padding: 50px;
-    text-align: center;
-    li{
-        font-size: 20px;
-        a{
-            color: #000;
-        }
+.breadcrum-bg {
+  padding: 40px;
+  text-align: center;
+  margin-top: 116px;
+
+  li {
+    font-size: 20px;
+    a {
+      color: #000;
     }
+  }
+}
+
+#breadcrumb {
+  background: url(../../assets/images/breadcrumb.png);
+  background-position: center center;
+  background-size: cover;
 }

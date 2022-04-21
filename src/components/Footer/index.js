@@ -11,18 +11,17 @@ const Footer = () => {
             <div className="col-md-3 col-sm-3">
               <img src={loc} alt="location" />
               <br />
-              Bhaluhi, Rupandehi,Nepal
+              Bhaluhi, Rupandehi, Nepal
             </div>
             <div className="col-md-3 col-sm-3">
               <img src={call} alt="phone" />
               <br />
-              071-403001, 403002,
-              <br /> 403003
+              +977-71-403001, +977-71-403002
             </div>
             <div className="col-md-3 col-sm-3">
               <img src={email} alt="email" />
               <br />
-              devdaha@gmail.com
+              devdahamedicalcollege@gmail.com
             </div>
             <div className="col-md-3 col-sm-3">
               <img src={clock} alt="time" />
@@ -56,10 +55,10 @@ const Footer = () => {
                 <h5 className="h5">Useful Links</h5>
                 <ul class="clearfix">
                   <li>
-                    <a href="#">Find a Doctor</a>
+                    <a href="/services">Find a Doctor</a>
                   </li>
                   <li>
-                    <a href="#">Jobs/Vacancy</a>
+                    <a href="/notice">Jobs/Vacancy</a>
                   </li>
                   <li>
                     <a href="#">Book an Appointment</a>
@@ -72,16 +71,16 @@ const Footer = () => {
                 <h5 className="h5">Services</h5>
                 <ul class="clearfix">
                   <li>
-                    <a href="#">General Surgery</a>
+                    <a href="/services">General Surgery</a>
                   </li>
                   <li>
-                    <a href="#">Internal Medicine</a>
+                    <a href="/services">Internal Medicine</a>
                   </li>
                   <li>
-                    <a href="#">Gynecology and Obstetrics</a>
+                    <a href="/services">Gynecology and Obstetrics</a>
                   </li>
                   <li>
-                    <a href="#">Allied Specialties</a>
+                    <a href="/services">Dermato - Venereology</a>
                   </li>
                 </ul>
               </div>

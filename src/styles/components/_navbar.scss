@@ -1,8 +1,24 @@
+nav.navbar.navbar-expand-lg.navbar-light.bg-white {
+background-color: #fff;
+    position: fixed;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    box-shadow: 0 0 10px rgb(0 0 0 / 10%);
+}
+
+.navbar-brand{
+  padding: 0px;
+}
+
 nav {
   .container {
-    a.navbar-brand {
-      font-size: 14px;
-    }
+  //   a.navbar-brand {
+  //     font-size: 18px;
+  //   }
 
     .navbar-collapse {
       .navbar-nav {
@@ -10,8 +26,11 @@ nav {
           color: white;
         }
         a.nav-link.nav-item {
-          color: black;
+          color: #666;
           font-size: 18px;
+          margin-left: 22px;
+          font-weight: 400;
+          font-family: Roboto, sans-serif;
           margin-left: 22px;
         }
         .active,
@@ -26,5 +45,25 @@ nav {
 @media only screen and (max-width: 992px) {
   .nav-tooggle {
     display: none;
+  }
+
+  nav {
+    .container {
+      a.navbar-brand {
+        font-size: 19px;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 375px){
+  nav .container a.navbar-brand {
+    font-size: 17px;
+  }
+}
+
+@media only screen and (max-width: 320px){
+  nav .container a.navbar-brand {
+    font-size: 14px;
   }
 }

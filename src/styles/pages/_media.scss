@@ -1,0 +1,16 @@
+.gallery-photos {
+  padding: 65px 0 45px 0;
+
+  .p-20.row {
+    padding: 10px 0;
+  }
+
+  figure {
+    margin: 0px;
+
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+  }
+}

@@ -1,15 +1,20 @@
 .sidecard.py-30 {
   padding-right: 30px;
   padding-left: 30px;
+  position: relative;
 
   h3.h3-md {
-    margin-bottom: 30px;
-    font-size: 2.25rem;
+    margin-bottom: 20px;
+    color: #222;
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    letter-spacing: -0.25px;
+    font-size: 32px;
   }
   span.line {
-    border-bottom: 2px solid #058fce;
+    border-bottom: 3px solid #058fce;
     position: absolute;
-    top: 20px;
+    top: 13px;
     width: 100px;
     color: #ffffff;
   }
