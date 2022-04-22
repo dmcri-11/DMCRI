@@ -4,10 +4,12 @@ import Footer from "../../components/Footer";
 import Breadcrums from "../../components/Breadcrums";
 
 import Slide from "react-reveal/Slide";
+import ScrollToTop from "../../components/ScrollToTop";
 
 const Academic = () => {
   return (
     <>
+      <ScrollToTop />
       {/* <Topnav /> */}
       <Nav />
       <Breadcrums name="Academic" />

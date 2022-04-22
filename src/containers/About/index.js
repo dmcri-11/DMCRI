@@ -11,10 +11,12 @@ import Prakash from "../../assets/images/Prakash.png";
 import SideCard from "../../components/SideCard";
 
 import Slide from "react-reveal/Slide";
+import ScrollToTop from "../../components/ScrollToTop";
 
 const About = () => {
   return (
     <>
+      <ScrollToTop />
       {/* <Topnav /> */}
       <Nav />
       <Breadcrums name="About Us" />

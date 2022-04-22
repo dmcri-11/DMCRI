@@ -17,15 +17,13 @@ const SideCard = ({
         <h3 class="h3-md steelblue-color">{title}</h3>
         <span className="line">.</span>
 
-        <Slide bottom>
-          <span class="section-id ">
-            <u>
-              {/* <a href="#"> */}
-              {founder}
-              {/* </a> */}
-            </u>
-          </span>
+        <span class="section-id ">
+          <u>
+            <a href="#">{founder}</a>
+          </u>
+        </span>
 
+        <Slide bottom>
           <p>{content}</p>
           <p>{content1}</p>
           <p>{content2}</p>

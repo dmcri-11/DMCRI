@@ -21,11 +21,13 @@ import surgery from "../../assets/images/departments/Surgery.png";
 import helipad from "../../assets/images/departments/Helipad.png";
 
 import Slide from "react-reveal/Slide";
+import ScrollToTop from "../../components/ScrollToTop";
 
 const Services = () => {
   return (
     <>
       {/* <Topnav /> */}
+      <ScrollToTop />
       <Nav />
       <Breadcrums name="Services" />
 

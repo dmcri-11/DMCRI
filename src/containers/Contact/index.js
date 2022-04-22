@@ -6,9 +6,11 @@ import { Container, Row, Col } from "react-bootstrap";
 import { FaMapMarkerAlt, FaPhoneAlt, FaEnvelope } from "react-icons/fa";
 import ContactForm from "../../components/ContactForm";
 import Slide from "react-reveal/Slide";
+import ScrollToTop from "../../components/ScrollToTop";
 const Contact = () => {
   return (
     <>
+      <ScrollToTop />
       {/* <Topnav /> */}
       <Nav />
       <Breadcrums name="Contact" />

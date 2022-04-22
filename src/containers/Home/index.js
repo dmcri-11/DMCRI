@@ -16,11 +16,14 @@ import Hero from "../../components/Hero";
 
 import Slide from "react-reveal/Slide";
 import Fade from "react-reveal/Fade";
+import ScrollToTop from "../../components/ScrollToTop";
 
 const Home = () => {
   return (
     <>
       {/* <Topnav /> */}
+      <ScrollToTop />
+
       <Nav />
 
       {/* hero section */}

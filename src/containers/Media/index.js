@@ -11,10 +11,12 @@ import media5 from "../../assets/images/media5.png";
 import { Col, Container, Row } from "react-bootstrap";
 
 import Slide from "react-reveal/Slide";
+import ScrollToTop from "../../components/ScrollToTop";
 
 const Media = () => {
   return (
     <>
+      <ScrollToTop />
       {/* <Topnav /> */}
       <Nav />
       <Breadcrums name="Media" />

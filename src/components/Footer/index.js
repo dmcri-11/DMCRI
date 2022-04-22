@@ -2,6 +2,8 @@ import loc from "../../assets/images/location.png";
 import call from "../../assets/images/call.png";
 import email from "../../assets/images/email.png";
 import clock from "../../assets/images/clock.png";
+import { FaFacebookF, FaTwitter, FaInstagram } from "react-icons/fa";
+
 const Footer = () => {
   return (
     <>
@@ -107,6 +109,41 @@ const Footer = () => {
                     Subscribe Now
                   </button>
                 </form>
+                {/* social icons */}
+                <div class="footer-socials-links ">
+                  <ul class="foo-socials text-center clearfix">
+                    <li>
+                      <a
+                        href="https://www.facebook.com/Devdahamedicalcollege"
+                        class="ico-facebook"
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        <FaFacebookF />
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="https://www.twitter.com/"
+                        class="ico-twitter"
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        <FaTwitter />
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="https://www.instagram.com/"
+                        class="ico-instagram"
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        <FaInstagram />
+                      </a>
+                    </li>
+                  </ul>
+                </div>
               </div>
             </div>
           </div>
