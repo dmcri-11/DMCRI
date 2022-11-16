@@ -1,6 +1,7 @@
 import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
 import Slide from "react-reveal/Slide";
+import { Link } from "react-router-dom";
 
 const AboutCard = ({ title, content, btnText }) => {
   return (
@@ -12,9 +13,11 @@ const AboutCard = ({ title, content, btnText }) => {
             <span className="line"> . </span>
             <Card.Text>{content}</Card.Text>
             <div className="d-flex justify-content-start">
-              <Button variant="primary" className="aboutButton" href="/about">
-                {btnText}
-              </Button>
+              <Link to="/about">
+                <Button variant="primary" className="aboutButton">
+                  {btnText}
+                </Button>
+              </Link>
             </div>
           </Card.Body>
         </Card>

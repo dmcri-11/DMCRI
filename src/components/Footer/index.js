@@ -3,6 +3,7 @@ import call from "../../assets/images/call.png";
 import email from "../../assets/images/email.png";
 import clock from "../../assets/images/clock.png";
 import { FaFacebookF, FaTwitter, FaInstagram } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -41,13 +42,13 @@ const Footer = () => {
                 <h5 className="h5">Information</h5>
                 <ul class="clearfix">
                   <li>
-                    <a href="/about">Who We Are</a>
+                    <Link to="/about">Who We Are</Link>
                   </li>
                   <li>
-                    <a href="/services">What We Do</a>
+                    <Link to="/services">What We Do</Link>
                   </li>
                   <li>
-                    <a href="/media">Gallery</a>
+                    <Link to="/media">Gallery</Link>
                   </li>
                 </ul>
               </div>
@@ -57,13 +58,13 @@ const Footer = () => {
                 <h5 className="h5">Useful Links</h5>
                 <ul class="clearfix">
                   <li>
-                    <a href="/services">Find a Doctor</a>
+                    <Link to="/services">Find a Doctor</Link>
                   </li>
                   <li>
-                    <a href="/notice">Jobs/Vacancy</a>
+                    <Link to="/notice">Jobs/Vacancy</Link>
                   </li>
                   <li>
-                    <a href="#">Book an Appointment</a>
+                    <Link to="#">Book an Appointment</Link>
                   </li>
                 </ul>
               </div>
@@ -73,16 +74,16 @@ const Footer = () => {
                 <h5 className="h5">Services</h5>
                 <ul class="clearfix">
                   <li>
-                    <a href="/services">General Surgery</a>
+                    <Link to="/services">General Surgery</Link>
                   </li>
                   <li>
-                    <a href="/services">Internal Medicine</a>
+                    <Link to="/services">Internal Medicine</Link>
                   </li>
                   <li>
-                    <a href="/services">Gynecology and Obstetrics</a>
+                    <Link to="/services">Gynecology and Obstetrics</Link>
                   </li>
                   <li>
-                    <a href="/services">Dermato - Venereology</a>
+                    <Link to="/services">Dermato - Venereology</Link>
                   </li>
                 </ul>
               </div>
@@ -101,13 +102,15 @@ const Footer = () => {
                       required
                     />
                   </div>
-                  <button
-                    type="submit"
-                    id="submit_subscribe"
-                    class="btn submit"
-                  >
-                    Subscribe Now
-                  </button>
+                  <Link to="#">
+                    <button
+                      type="submit"
+                      id="submit_subscribe"
+                      class="btn submit"
+                    >
+                      Subscribe Now
+                    </button>
+                  </Link>
                 </form>
                 {/* social icons */}
                 <div class="footer-socials-links ">

@@ -1,6 +1,7 @@
 import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
 import Slide from "react-reveal/Slide";
+import { Link } from "react-router-dom";
 
 const NoticeCard = () => {
   return (
@@ -62,9 +63,11 @@ const NoticeCard = () => {
             {/* <button className="noticeButton" href="/notice">
             View All
           </button> */}
-            <Button variant="primary" className="noticeButton" href="/notice">
-              View All
-            </Button>
+            <Link to="/notice">
+              <Button variant="primary" className="noticeButton">
+                View All
+              </Button>
+            </Link>
           </Card.Body>
         </Card>
       </Slide>
